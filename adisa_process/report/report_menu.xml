@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+<!--        <report-->
+<!--                id="adisa_process.report_invoice_with_payments_no_header"-->
+<!--                model="account.move"-->
+<!--                string="Facture sans entete"-->
+<!--                name="adisa_process.report_invoice_with_payments_no_header"-->
+<!--                file="adisa_process.report_invoice_with_payments_no_header"-->
+<!--                report_type="qweb-pdf"/>-->
+
+        <report
+                id="adisa_process.report_invoice_no_header"
+                model="account.move"
+                string="Facture sans paiements sans entete"
+                name="adisa_process.report_invoice_no_header"
+                file="adisa_process.report_invoice_no_header"
+                report_type="qweb-pdf"/>
+
+
+
+
+    </data>
+</odoo>
